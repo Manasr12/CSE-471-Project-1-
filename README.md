@@ -14,8 +14,7 @@
 - [Grading Elements](#grading-elements)
 
 ## Introduction
-Replace here 
-
+For this project we used the Step 5 Synthie program and modified it to use a subtractive instrument and several effects. This page is our web page component of the project and serves to outline what we are submitting as our CSE 471 project.
 ## Group Members
 - Duncan Stewart
 - Mannan Dhillon
