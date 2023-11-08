@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="170" beatspermeasure="4">
+    <instrument instrument="SubtractiveInstrument">
+        <note measure="1" beat="1" duration="2" note="D4" wavetype="Triangle" />
+        <note measure="1" beat="3" duration="2" note="E4" wavetype="Triangle" />
+        <note measure="2" beat="1" duration="2" note="F4" wavetype="Triangle" />
+        <note measure="2" beat="3" duration="2" note="A4" wavetype="Triangle" />
+	<note measure="3" beat="1" duration="2" note="F4" wavetype="Triangle" />
+        <note measure="3" beat="3" duration="2" note="A4" wavetype="Triangle" />
+        <note measure="4" beat="1" duration="2" note="E4" wavetype="Triangle"/>
+        <note measure="4" beat="3" duration="2" note="D4" wavetype="Triangle"/>
+	<note measure="5" beat="1" duration="2" note="D4" wavetype="Triangle" />
+        <note measure="5" beat="3" duration="2" note="E4" wavetype="Triangle" />
+        <note measure="6" beat="1" duration="2" note="F4" wavetype="Triangle" />
+        <note measure="6" beat="3" duration="2" note="A4" wavetype="Triangle" />
+	<note measure="7" beat="1" duration="2" note="F4" wavetype="Triangle" />
+        <note measure="7" beat="3" duration="2" note="A4" wavetype="Triangle" />
+        <note measure="8" beat="1" duration="2" note="E4" wavetype="Triangle"/>
+        <note measure="8" beat="3" duration="2" note="D4" wavetype="Triangle"/>
+	<note measure="9" beat="1" duration="2" note="D4" wavetype="Triangle" />
+        <note measure="9" beat="3" duration="2" note="E4" wavetype="Triangle" />
+        <note measure="10" beat="1" duration="2" note="F4" wavetype="Triangle" />
+        <note measure="10" beat="3" duration="2" note="A4" wavetype="Triangle" />
+    </instrument>
+	<instrument instrument="Reverb">
+        <note measure="3" beat="1" delay=".0025" wet=".5" dry=".5"/>
+        <note measure="3" beat="3" delay=".0025" wet=".7" dry=".3"/>
+    </instrument>
+	<instrument instrument="Flange">
+        <note measure="5" beat="1" delay=".0025" wet=".5" dry=".5"/>
+        <note measure="5" beat="3" delay=".0025" wet=".7" dry=".3"/>
+	</instrument>
+	<instrument instrument="Chorus">
+        <note measure="7" beat="1" delay=".1" wet=".5" dry=".5"/>
+        <note measure="7" beat="3" delay=".1" wet=".7" dry=".3"/>
+	</instrument>
+	<instrument instrument="RingMod">
+        <note measure="9" beat="1" delay=".0025" wet=".5" dry=".5"/>
+        <note measure="9" beat="3" delay=".0025" wet=".7" dry=".3"/>
+	</instrument>
+</score>
