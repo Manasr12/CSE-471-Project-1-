@@ -66,6 +66,13 @@ The Flanger class is an audio effect processor that creates a flanging effect. I
 The Reverb class is an audio effect processor that creates a reverberation effect. It initializes parameters such as room size, damping, wet level, and write index in its constructor. The Process method applies the reverb effect to the input frame by calculating a low-frequency oscillator (LFO) value, determining the delay length, and mixing the delayed sample with the input frame.
 ## Ring Modulation
 The RingMod class is an audio effect processor that creates a ring modulation effect. It initializes parameters such as modulation frequency and current phase in its constructor. The Process method applies the ring modulation effect to the input frame by calculating a modulator signal, which is a sine wave with the current phase, and then mixing this signal with the input frame.
+## Remaining points:
+- 10 - Suitable length audio files and web site turned in. -  10 completed as described
+- 20 - Audio file is recognizable as music in the opinion of the TA and Instructor.- 10 completed as described (I mean come on its classical) 
+- 30 - Audio file utilizes all system components. - 10 completed as described
+- 40 - Audio file utilizes all capabilities of all system components.- 10 completed as described
+- 50 - The script has at least 240 notes in it.- 10 completed as described
+
 ## Score File Format
 Describe the format of your score files. Include details such as the file type (e.g., `.txt`, `.json`, `.xml`), the structure of the content, encoding used, and any other relevant information.
 
