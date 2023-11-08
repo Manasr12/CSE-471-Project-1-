@@ -85,3 +85,5 @@ Here is the format of our score file below:
 </score>
 ```
 This was a testing file we used to see if our Chorus effect worked. As you can see it it very similar to the original Synthie test files. We just made effects and the Subtractive wave seperate instruments in the file itself. Effects always come after our actual instrumnet "Instrument", like the subtractive instrument we implemented. Each note contains specific information that is used in our instrument such as beat, duration, note, wavetype etc.
+
+All score files we are submitting with our project are also present in this repo.
