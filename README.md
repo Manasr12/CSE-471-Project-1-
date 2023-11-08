@@ -61,7 +61,7 @@ The RingMod class is an audio effect processor that creates a ring modulation ef
 - 50 - The script has at least 240 notes in it.- 10 completed as described
 
 ## Score File Format
-Describe the format of your score files. Include details such as the file type (e.g., `.txt`, `.json`, `.xml`), the structure of the content, encoding used, and any other relevant information.
+
 
 Here is the format of our score file below: 
 ```score
