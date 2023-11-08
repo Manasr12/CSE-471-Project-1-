@@ -14,7 +14,7 @@
 - [Grading Elements](#grading-elements)
 
 ## Introduction
-For this project we used the Step 5 Synthie program and modified it to use a subtractive instrument and several effects. This page is our web page component of the project and serves to outline what we are submitting as our CSE 471 project.
+For this project we used the Step 5 Synthie program and modified it to use a subtractive instrument and several effects. This page is our web page component of the project and serves to outline what we are submitting as our CSE 471 project. Also in this repo are the original score files. The Fur Elise file is our minute long song and the effects testing file showcases the functionality of our effects.
 ## Group Members
 - Duncan Stewart
 - Mannan Dhillon
