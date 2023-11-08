@@ -1,4 +1,4 @@
-# Project Title
+# Project 1 CSE 471
 
 ## Table of Contents
 - [Introduction](#introduction)
