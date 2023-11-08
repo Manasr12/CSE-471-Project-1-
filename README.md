@@ -70,7 +70,7 @@ The RingMod class is an audio effect processor that creates a ring modulation ef
 Describe the format of your score files. Include details such as the file type (e.g., `.txt`, `.json`, `.xml`), the structure of the content, encoding used, and any other relevant information.
 
 Here is the format of our score file below: 
-
+```score
 <?xml version="1.0" encoding="utf-8"?>
 <score bpm="100" beatspermeasure="4">
     <instrument instrument="SubtractiveInstrument">
@@ -92,5 +92,5 @@ Here is the format of our score file below:
         <note measure="3" beat="3" delay=".1" wet=".7" dry=".3"/>
     </instrument>
 </score>
-
+```
 This was a testing file we used to see if our Chorus effect worked. As you can see it it very similar to the original Synthie test files. We just made effects and the Subtractive wave seperate instruments in the file itself. Effects always come after our actual instrumnet "Instrument", like the subtractive instrument we implemented. Each note contains specific information that is used in our instrument such as beat, duration, note, wavetype etc.
