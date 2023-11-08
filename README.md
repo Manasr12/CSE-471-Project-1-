@@ -14,7 +14,7 @@
 - [Grading Elements](#grading-elements)
 
 ## Introduction
-Provide an introduction to your project. Explain what the project is about and what it aims to achieve.
+Replace here 
 
 ## Group Members
 - Duncan Stewart
@@ -30,12 +30,13 @@ Provide an introduction to your project. Explain what the project is about and w
 
 ## Subtractive Synthesizer
 Completed by Mannan Dhillon
-10 - Waveform playback from tables - 10 completed as described
-20 - Varying pitch playback from tables - 20 completed as described
-30 - Envelope generation - 30 completed as described
-35 - Polyphony - 35 completed as described
-40 - Reson implementation and the Moog sound - 40 completed as described
-50 - Filter envelopes - 50 completed as described
+- 10 - Waveform playback from tables - 10 completed as described
+- 20 - Varying pitch playback from tables - 20 completed as described
+- 30 - Envelope generation - 30 completed as described
+- 35 - Polyphony - 35 completed as described
+- 40 - Reson implementation and the Moog sound - 40 completed as described
+- 50 - Filter envelopes - 50 completed as described
+
 
 Summary: 
 The Sub class serves as the main component of the subtractive synthesizer. It orchestrates the sound generation process by utilizing the SubWave class. Upon playing a note, the Start method in Sub initializes the envelope and amplitude filter. The SetNote method adjusts sound attributes based on a CNote object.
@@ -47,11 +48,11 @@ All components of this instrument have been completed as specified, our grading 
 ## Effects:
 Completed by Duncan Stewart
 
-10 - Component passes audio - 10 completed as described
-20 - 1 Effect - 10 completed as described
-30 - 3 Effects - 10 completed as described
-40 - Controllable effects send - 10 completed as described
-50 - 4 Effects - 10 completed as described
+- 10 - Component passes audio - 10 completed as described
+- 20 - 1 Effect - 10 completed as described
+- 30 - 3 Effects - 10 completed as described
+- 40 - Controllable effects send - 10 completed as described
+- 50 - 4 Effects - 10 completed as described
 
 Summary: 
 The BaseEffect class serves as the foundation for all audio effects in the system. It initializes two queues, m_lque and m_rque, in its constructor. The SetNote method processes a CNote object and extracts its attributes. The ProcessAttribute method then applies these attributes to the effect.
