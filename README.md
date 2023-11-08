@@ -6,7 +6,7 @@
 - [Score File Format](#score-file-format)
 - [Score File Example](#score-file-example)
 - [Component Overview](#component-overview)
-  - [Component 1](#Subtractive Synthesizer)
+  - [Component 1](#Subtractive-Synthesizer)
   - [Component 2](#component-2)
   - [Component 3](#component-3)
   - [More Components...](#more-components)
