@@ -75,7 +75,6 @@ Here is the format of our score file below:
 <?xml version="1.0" encoding="utf-8"?>
 <score bpm="100" beatspermeasure="4">
     <instrument instrument="SubtractiveInstrument">
-        <!-- London Bridge is falling down, -->
         <note measure="1" beat="1" duration="2" note="D4" wavetype="Triangle" />
         <note measure="1" beat="3" duration="2" note="E4" wavetype="Triangle" />
         <note measure="2" beat="1" duration="2" note="F4" wavetype="Triangle" />
@@ -84,11 +83,9 @@ Here is the format of our score file below:
         <note measure="3" beat="3" duration="2" note="A4" wavetype="Triangle" />
         <note measure="4" beat="1" duration="2" note="E4" wavetype="Triangle"/>
         <note measure="4" beat="3" duration="2" note="D4" wavetype="Triangle"/>
-        <!-- My fair lady. -->
         <note measure="5" beat="1" duration="3" note="D4" wavetype="Triangle"/>
     </instrument>
 	<instrument instrument="Chorus">
-        <!-- Falling down, falling down, -->
         <note measure="3" beat="1" delay=".1" wet=".5" dry=".5"/>
         <note measure="3" beat="3" delay=".1" wet=".7" dry=".3"/>
     </instrument>
