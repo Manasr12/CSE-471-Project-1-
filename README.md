@@ -29,6 +29,9 @@ The Sub class serves as the main component of the subtractive synthesizer. It or
 
 The SubWave class is responsible for the actual sound generation. It uses a wavetable for this purpose. The Generate method in SubWave retrieves and outputs the waveform from the wavetable. The SetWavetables method populates the wavetable with samples and applies a resonant filter if enabled. The ResonFilt method implements this resonant filter, emphasizing a specific frequency and influencing the sound’s timbre. This intricate interplay of components results in the final sound output.
 
+The Sub class is the core of our subtractive synthesizer project, successfully coordinating sound synthesis via the SubWave class. It has seen the completion of essential features: playback of waveforms from tables, fine-tuned pitch variations, creation of envelopes, implementation of polyphony, and the Moog-inspired Reson filter for that quintessential sound. We've also integrated filter envelopes to add depth and movement to the soundscape. These features have been meticulously coded and tested, functioning exactly as outlined in the project specifications.
+
+Upon triggering a note, the Sub class's Start method springs into action, initializing the envelope and amplitude filter with precision. The SetNote method adapts the audio characteristics, taking input from the CNote object to tweak the pitch and timbre. SubWave takes charge of generating the sound, with the Generate method mining the wavetable for waveforms and the SetWavetables method populating it with the necessary samples. The resonant frequencies come alive through the ResonFilt method, enriching the sound with its signature timbral influence. 
 All components of this instrument have been completed as specified, our grading for this section is above.
 
 ## Effects:
